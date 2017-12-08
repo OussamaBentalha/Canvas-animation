@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{DD81E684-A67C-4A89-85F8-F19155D2DAD3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SphereOpenGL/SurfaceViewPanel/RectPlayer.cs">
+    <Files>
+      <File FileName="SphereOpenGL/SurfaceViewPanel/BubblePanel.cs" Line="34" Column="53" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/RectPlayer.cs" Line="43" Column="48" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/GameObject.cs" Line="7" Column="6" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/Obstacle.cs" Line="19" Column="23" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/BubbleThread.cs" Line="43" Column="21" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/SurfaceViewFragment.cs" Line="31" Column="57" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/Constants.cs" Line="7" Column="41" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/ObstacleManager.cs" Line="30" Column="33" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/BubblePlayer.cs" Line="9" Column="10" NotebookId="1" />
+      <File FileName="SphereOpenGL/SurfaceViewPanel/BubbleManager.cs" Line="8" Column="21" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SphereOpenGL AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.AHK7N17303002894" />
+</Properties>

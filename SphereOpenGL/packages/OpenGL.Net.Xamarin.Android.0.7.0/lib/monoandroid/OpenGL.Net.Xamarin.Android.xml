@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenGL.Net.Xamarin.Android</name>
+    </assembly>
+    <members>
+        <member name="T:OpenGL.GLSurfaceView">
+            <summary>
+            Basic <see cref="T:Android.Views.SurfaceView"/> for rendering.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.#ctor(Android.Content.Context)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.#ctor(Android.Content.Context,Android.Util.IAttributeSet)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="attrs"></param>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            
+            </summary>
+            <param name="handle"></param>
+            <param name="transfer"></param>
+        </member>
+        <member name="F:OpenGL.GLSurfaceView._DeviceContext">
+            <summary>
+            The <see cref="T:OpenGL.DeviceContext"/> created on this GlSurfaceView.
+            </summary>
+        </member>
+        <member name="F:OpenGL.GLSurfaceView._RenderContext">
+            <summary>
+            The OpenGL context created on this GlSurfaceView.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.ANativeWindow_fromSurface(System.IntPtr,System.IntPtr)">
+            <summary>
+            Get native window from surface
+            </summary>
+            <param name="jni"></param>
+            <param name="surface"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.ANativeWindow_release(System.IntPtr)">
+            <summary>
+            Get native window from surface
+            </summary>
+            <param name="surface"></param>
+        </member>
+        <member name="F:OpenGL.GLSurfaceView._RenderTimer">
+            <summary>
+            Timer used for triggering rendering.
+            </summary>
+        </member>
+        <member name="F:OpenGL.GLSurfaceView._RenderTimerDueTime">
+            <summary>
+            Due time for triggering rendering, in milliseconds.
+            </summary>
+        </member>
+        <member name="E:OpenGL.GLSurfaceView.ContextCreated">
+            <summary>
+            Event raised on control creation time, allow user to allocate resource on control.
+            </summary>
+        </member>
+        <member name="F:OpenGL.GLSurfaceView._ContextCreated">
+            <summary>
+            Underlying EventHandler for <see cref="E:OpenGL.GLSurfaceView.ContextCreated"/>.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.OnContextCreated">
+            <summary>
+            Raise the event <see cref="E:OpenGL.GLSurfaceView.ContextCreated"/>.
+            </summary>
+        </member>
+        <member name="E:OpenGL.GLSurfaceView.ContextDestroying">
+            <summary>
+            Event raised on control disposition time, allow user to dispose resources on control.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.OnContextDestroying">
+            <summary>
+            Raise the event <see cref="E:OpenGL.GLSurfaceView.ContextDestroying"/>.
+            </summary>
+        </member>
+        <member name="E:OpenGL.GLSurfaceView.Render">
+            <summary>
+            Event raised on control render time, allow user to draw on control.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.OnRender">
+            <summary>
+            Raise the event <see cref="E:OpenGL.GLSurfaceView.Render"/>.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.Dispose(System.Boolean)">
+            <summary>
+            Dispose this GLSurfaceView.
+            </summary>
+            <param name="disposing">
+            A <see cref="T:OpenGL.Boolean"/> that specifies whether the Dispose method has been called.
+            </param>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.SurfaceCreated(Android.Views.ISurfaceHolder)">
+            <summary>
+            This is called immediately after the surface is first created.
+            </summary>
+            <param name="holder">
+            The SurfaceHolder whose surface is being created.
+            </param>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.SurfaceDestroyed(Android.Views.ISurfaceHolder)">
+            <summary>
+            This is called immediately before a surface is being destroyed.
+            </summary>
+            <param name="holder">
+            The SurfaceHolder whose surface is being destroyed.
+            </param>
+        </member>
+        <member name="M:OpenGL.GLSurfaceView.SurfaceChanged(Android.Views.ISurfaceHolder,Android.Graphics.Format,System.Int32,System.Int32)">
+            <summary>
+            This is called immediately after any structural changes (format or size) have been made to the surface.
+            </summary>
+            <param name="holder">
+            The SurfaceHolder whose surface has changed.
+            </param>
+            <param name="format">
+            The new PixelFormat of the surface.
+            </param>
+            <param name="w">
+            The new width of the surface.
+            </param>
+            <param name="h">
+            The new height of the surface.
+            </param>
+        </member>
+        <member name="F:OpenGL.GLSurfaceView._Holder">
+            <summary>
+            Surface holder.
+            </summary>
+        </member>
+        <member name="T:OpenGL.GLSurfaceViewEventArgs">
+            <summary>
+            Arguments for <see cref="T:OpenGL.GLSurfaceView"/> events.
+            </summary>
+        </member>
+        <member name="M:OpenGL.GLSurfaceViewEventArgs.#ctor(OpenGL.DeviceContext,System.IntPtr)">
+            <summary>
+            Construct a GlSurfaceViewEventArgs.
+            </summary>
+            <param name="deviceContext">
+            The <see cref="F:OpenGL.GLSurfaceViewEventArgs.DeviceContext"/> used for the underlying <see cref="T:OpenGL.GLSurfaceView"/>.
+            </param>
+            <param name="renderContext">
+            The OpenGL context used for rendering.
+            </param>
+        </member>
+        <member name="F:OpenGL.GLSurfaceViewEventArgs.DeviceContext">
+            <summary>
+            The <see cref="F:OpenGL.GLSurfaceViewEventArgs.DeviceContext"/> used for the underlying <see cref="T:OpenGL.GLSurfaceView"/>.
+            </summary>
+        </member>
+        <member name="F:OpenGL.GLSurfaceViewEventArgs.RenderContext">
+            <summary>
+            The OpenGL context used for rendering.
+            </summary>
+        </member>
+    </members>
+</doc>

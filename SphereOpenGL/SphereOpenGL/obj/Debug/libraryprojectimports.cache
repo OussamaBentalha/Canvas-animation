@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.Annotations/library_project_imports/support-annotations.jar;/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.Compat/library_project_imports/bin/classes.jar;/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.Core.UI/library_project_imports/bin/classes.jar;/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.Core.Utils/library_project_imports/bin/classes.jar;/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.Fragment/library_project_imports/bin/classes.jar;/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.Media.Compat/library_project_imports/bin/classes.jar;/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/bin/classes.jar</Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/OpenGL.Net/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/OpenGL.Net.Xamarin.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/OpenGL.Net/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/OpenGL.Net.Xamarin.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/OpenGL.Net.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/OpenGL.Net.Xamarin.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/oussamabentalha/Developpement/Maquette/SphereOpenGL/SphereOpenGL/SphereOpenGL/obj/Debug/__library_projects__/Xamarin.Android.Support.v4.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
